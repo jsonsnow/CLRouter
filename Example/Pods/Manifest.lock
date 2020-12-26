@@ -1,0 +1,16 @@
+PODS:
+  - WGRouter (0.1.0)
+
+DEPENDENCIES:
+  - WGRouter (from `../`)
+
+EXTERNAL SOURCES:
+  WGRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WGRouter: 112cc328303039c94e18fc0f7fa699abba8278b1
+
+PODFILE CHECKSUM: e58bc3ad5380daf6eee8a41f299c475825e5a345
+
+COCOAPODS: 1.9.3

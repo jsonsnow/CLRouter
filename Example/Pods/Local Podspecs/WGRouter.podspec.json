@@ -1,0 +1,22 @@
+{
+  "name": "WGRouter",
+  "version": "0.1.0",
+  "summary": "WG router componet",
+  "description": "a wrap on bifrost A delightful library for app business modular architecture.",
+  "homepage": "https://github.com/jsonsnow/WGRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jsonsnow": "1183010734@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/jsonsnow/WGRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WGRouter/Classes/**/*"
+}

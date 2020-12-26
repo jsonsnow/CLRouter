@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		12DB70A2FAFF10C2A0552854 /* Pods-WGRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGRouter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WGRouter_Tests/Pods-WGRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3605FA608120A7B7908699CE /* WGRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WGRouter.podspec; path = ../WGRouter.podspec; sourceTree = "<group>"; };
+		3605FA608120A7B7908699CE /* WGRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WGRouter.podspec; path = ../WGRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46C1D505B9DAA34524C495DF /* Pods-WGRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGRouter_Example.debug.xcconfig"; path = "Target Support Files/Pods-WGRouter_Example/Pods-WGRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		51770FC81033B7333013A333 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		51770FC81033B7333013A333 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		54F589DD3966B68469C9E00F /* Pods_WGRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WGRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* WGRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83F95A259FC22B58FA8FFD1F /* Pods_WGRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WGRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		976BF686AF3996286F8A85B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		976BF686AF3996286F8A85B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D7724B1289AD994CE4EBA997 /* Pods-WGRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGRouter_Example.release.xcconfig"; path = "Target Support Files/Pods-WGRouter_Example/Pods-WGRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				12DB70A2FAFF10C2A0552854 /* Pods-WGRouter_Tests.debug.xcconfig */,
 				6F428355F253670AD23D3FCE /* Pods-WGRouter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
